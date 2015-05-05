@@ -1,0 +1,450 @@
+body { color: black; font-family: Verdana,Arial,Sans-serif; background-color: #3C5877; margin: 0px;}
+
+body, td, th, p, div {font-family: Verdana, Arial, Helvetica; font-size: 11px;}
+
+/* Параметры по-умолчанию для всех таблиц (если не определены спецефические) */
+table {width: 100%; margin: 0; padding: 0;}
+table#okvir{ background-color: #ffffff; }
+
+table td {padding: 0; border-width: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica;}
+
+
+a
+{
+	color: #002B55;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: transparent;
+}
+a:hover
+{
+	color: #FF0000;
+	text-decoration: underline;
+}
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left; }
+li { margin-left: 2px; list-style: square inside; color: #2F5376; }
+
+img {border: 0;}
+
+
+#maintable {background-color: #FFFFFF; border: 1px solid #000000;}
+#maintable .maincell {background-color: #FFFFFF; border: 1px solid #000000;}
+#hbar {margin-bottom: 2px;margin-top: 2px;}
+#hbar .hbarcell {height: 20px; background-color: #EBF0F7; border-top: 1px solid #000000; border-bottom: 1px solid #000000;}
+
+
+
+/* Рамка вокруг новости */
+
+.item {border: 1px solid #ffffff;}
+/* Цвет фона заголовка */
+
+.itemHead {padding: 3px; border: 1px solid #FFFFFF; color: #FFFFFF; background-image: url(bg_news.gif);}
+
+/* Цвет фона информации о новости (когда опубликова, кем и т.д.) */
+.itemInfo {background-image: url(bg_head.jpg); text-align: center;  padding:3px; border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF; color: #54606C; background-color: #D8E2F7;}
+
+/* Цвет ссылки на раздел и заголовок новости */
+.itemTitle a:link, .itemTitle a:active, .itemTitle a:visited { color: #FFFFFF; font-weight: bold; text-decoration: none;}
+.itemTitle a:hover {color: #FFFFFF; font-weight: bold; text-decoration: underline;}
+.itemPoster {font-size: 10px;}
+.itemPostDate {font-size: 10px;}
+.itemStats {font-size: 10px;}
+.itemBody {padding-left: 3px;}
+.itemText {margin-top: 3px; margin-bottom: 3px; line-height: 120%;}
+.itemText:first-letter {}
+
+/* Нижний колонтитул новости (читать далее и т.д.) */
+.itemFoot {background-image: url(bg_head.jpg); text-align: center; padding:3px; border:1px solid #FFFFFF; color: #708090; background-color: #D8E2F7;}
+.itemAdminLink {font-size: 10px;}
+.itemPermaLink {font-size: 10px;}
+
+
+
+
+
+
+/* Настройки заголовков таблиц */
+
+
+th
+{
+	background-color: #BBBBBB;
+	color: #004080;
+	padding: 2px;
+	vertical-align: middle;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+td#headerbanner
+{
+	width: 100%;
+		vertical-align: middle;
+}
+td#headerbar
+{
+	height: 29px;
+	background-color: #939393;
+	color: #FFFFFF;
+	line-height: 27px;
+	padding-left: 6px;
+	padding-right: 7px;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+td#headerbar a
+{
+	color: #FFFFFF;
+}
+td#headerbar a:hover
+{
+	color: #FF8040;
+}
+td#leftcolumn
+{
+	width: 160px;
+	font-size: 11px;
+	padding-top: 0px;
+	background-color: #EEEEEE;
+	background-image: url('images/left.gif');
+	background-position: right;
+	background-repeat: repeat-y;
+	border-right: 1px solid #cccccc;
+}
+td#leftcolumn th
+{
+	vertical-align: bottom;
+	border-bottom: 1px dashed #8699B5;
+	background-color: transparent;
+	color: #464646;
+}
+td#leftcolumn div.blockTitle
+{
+	padding: 3px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 10px;
+	background-color: #5075C3;
+	padding-left: 15px;
+}
+td#leftcolumn div.blockContent
+{
+	padding: 3px;
+	line-height: 120%;
+	line-height: 120%;
+}
+
+
+/* Настройка ЦЕНТРА страницы */
+td#centercolumn { font-size: 12px; background-image: url(bg_center.gif); }
+/* Заголовки центральных таблиц */
+td#centercolumn th {background-image: url(bg_cent.gif); background-color: #708090; color: #102B62;  vertical-align: middle;}
+td#centercolumn th a:link, td#centercolumn th a:active, td#centercolumn th a:visited {color: #1D216B; font-weight: bold; text-decoration: none;}
+td#centercolumn th a:hover {color: #4269B9; font-weight: bold; text-decoration: underline;}
+/* Настройки ЦЕНТРАЛЬНЫХ ЦЕНТРАЛЬНЫХ блоков */
+
+
+
+td#centerCcolumn div.blockTitle {padding: 1px; color: #515151; font-weight: bold; margin-top: 0px; margin-right: 0px; margin-left: 0px; font-size: 10px; margin-bottom: 5px; padding-left: 15px; border: 1px solid #666666; background-color: #E2E2E2;}
+td#centerCcolumn div.blockContent { margin-right: 0px; margin-left: 0px; margin-bottom: 8px; line-height: 120%; }
+
+
+
+
+td#centerLcolumn
+{ width: 50%; padding: 0px 0px 0px 0px; border-right: 1px solid #cccccc; }
+td#centerLcolumn div.blockTitle
+{ padding: 1px; color: #515151; font-weight: bold; margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	font-size: 10px;
+	margin-bottom: 5px;
+	padding-left: 15px;
+	border: 1px solid #666666;
+	background-color: #E2E2E2;
+}
+td#centerLcolumn div.blockContent
+{
+	margin-right: 0px;
+	margin-left: 0px;
+	line-height: 120%;
+	padding: 2px;
+}
+
+
+
+td#centerRcolumn
+{
+	width: 50%;
+	padding: 0px 0px 0px 0px;
+}
+td#centerRcolumn div.blockTitle
+{
+	padding: 1px;
+	color: #515151;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	font-size: 10px;
+	margin-bottom: 5px;
+	padding-left: 15px;
+	border: 1px solid #666666;
+	background-color: #E2E2E2;
+}
+td#centerRcolumn div.blockContent
+{
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 2px;
+	line-height: 120%;
+	padding: 2px;
+}
+
+
+/* Настройка ПРАВЫХ блоков */
+
+td#rightcolumn
+{
+	width: 160px;
+	font-size: 11px;
+	padding-top: 0px;
+	background-color: #EEEEEE;
+	background-image: url('images/right.gif');
+	background-position: left;
+	background-repeat: repeat-y;
+	border-left: 1px solid #cccccc;
+}
+td#rightcolumn th
+{
+	vertical-align: bottom;
+	border-bottom: 1px solid #666666;
+	background-color: transparent;
+	color: #464646;
+}
+td#rightcolumn div.blockTitle
+{
+	padding: 3px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 10px;
+	background-color: #5075C3;
+	padding-left: 15px;
+}
+td#rightcolumn div.blockContent
+{
+	padding: 3px;
+	line-height: 120%;
+	line-height: 120%;
+}
+
+
+
+td#mainmenu a
+{
+	color: #575757;
+	font-size: 10px;
+	display: block;
+	padding-left: 10px;
+	font-weight: bold;
+	border-bottom: 1px solid #F4F4F4;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+td#mainmenu a:hover
+{
+	background-color: #F4F4F4;
+	color: #FF0000;
+	text-decoration: none;
+}
+td#mainmenu a.menuTop
+{
+	padding-left: 10px;
+}
+td#mainmenu a.menuMain
+{
+	padding-left: 10px;
+}
+td#mainmenu a.menuSub
+{
+	padding-left: 20px;
+	color: #9F0000;
+	font-weight: normal;
+}
+td#usermenu a
+{
+	color: #8D8D8D;
+	font-weight: normal;
+	font-size: 10px;
+	padding-left: 5px;
+	padding-bottom: 1px;
+}
+td#usermenu a:hover
+{
+	background-color: #ffffff;
+	color: #FF0000;
+}
+td#usermenu a.highlight
+{
+	background-color: #fcc;
+}
+/* Стили использующиеся в таблицах*/
+.outer {border: 1px solid #BCC1C6; background-color: #FFFFFF;}
+.head {background-color: #9CBCDC; padding: 3px; font-weight: bold;}
+.head { background-color: #ECEFF3; padding: 5px; font-weight: bold;}
+
+.even {background-color: #ECEFF3; padding: 3px;}
+.odd {background-color: #E0E9EF; padding: 3px;}
+.foot {background-color: #DDE1E5; padding: 3px; font-weight: bold;}
+tr.even td {background-color: #DFE3E7; padding: 3px;}
+tr.odd td {background-color: #E2E6E9; padding: 3px;}
+
+
+p {
+padding: 0px;
+margin: 0px;
+}
+
+input
+{
+	font: 11px verdana, arial, helvetica, sans-serif;
+}
+textarea
+{
+	border: 1px solid #8699B5;
+	width: 400px;
+	font: 11px verdana, arial, helvetica, sans-serif;
+	background-color: #F5F5F5;
+}
+input.formTextBox
+{
+	border: 1px solid #8699B5;
+	background: #F5F5F5;
+	font: 11px verdana, arial, helvetica, sans-serif;
+}
+select
+{
+	border: 1px solid #8699B5;
+	font: 11px verdana, arial, helvetica, sans-serif;
+	background-color: #F5F5F5;
+}
+.pozdrav
+{
+	background-color: #D3D3D3;
+	font-size: 10px;
+	color: #FFFFFF;
+	padding-top: 7px;
+	padding-bottom: 4px;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #666666;
+}
+.pozdrav a
+{
+	color: #4269B9;
+}
+.vrijeme
+{
+	background-color: #D3D3D3;
+	font-size: 10px;
+	color: #838383;
+	padding-top: 7px;
+	padding-right: 5px;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #666666;
+}
+.headerprvi
+{
+	background-color: #D3D3D3;
+	color: #FFFFFF;
+	font-weight: normal;
+	vertical-align: middle;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #666666;
+}
+form
+{
+	font-size: 11px;
+	color: #787878;
+}
+.loginlink
+{
+	background-image: url('images/btn_bullet.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 10px;
+}
+.button
+{
+	font-size: 10px;
+	color: #808080;
+	background-color: #E4E4E4;
+	border: 1px solid #999999;
+	margin-top: 4px;
+}
+.sadrzaj
+{
+	margin-bottom: 20px;
+}
+.blok
+{
+	margin-bottom: 6px;
+}
+.privatnost
+{
+	color: #FFFFFF;
+	font-size: 10px;
+	text-align: center;
+}
+.privatnost a
+{
+	color: #FFFFFF;
+	font-weight: normal;
+}
+td#headmenu
+{ color: #FFFFFF; font-size: 10px; background-image: url('images/ui_1.gif'); }
+td#headmenu a
+{
+	color: #FFFFFF;
+	font-size: 10px;
+	display: block;
+	padding: 5px;
+	background-image: url('images/ui_1.gif');
+}
+td#headmenu a:hover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	background-image: url('images/ui_2.gif');
+}
+td#headmenu a.menuHead
+{
+	font-size: 10px;
+}
+.foot_theme { background-color: #12817D; font-size: 10px; color: #838383; padding: 5px; font-weight: normal;}
+
+div.errorMsg {background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg {background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg {background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode {color: #54606C; background-color: #F5F5F5; border: 1px dashed #54606C; padding: 6px;}
+div.xoopsQuote {color: #54606C; background-color: #F5F5F5; border: 1px dashed #54606C; padding: 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller;}
+.comDateCaption {font-weight: bold; font-style: normal;}
